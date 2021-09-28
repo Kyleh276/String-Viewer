@@ -1,0 +1,12 @@
+C:\Users\Knyfe\Documents\SharpDevelop Projects\charcount\charcount\obj\Debug\charcount.csprojResolveAssemblyReference.cache
+C:\Users\Knyfe\Documents\SharpDevelop Projects\charcount\charcount\obj\Debug\Window1.baml
+C:\Users\Knyfe\Documents\SharpDevelop Projects\charcount\charcount\obj\Debug\Window1.g.cs
+C:\Users\Knyfe\Documents\SharpDevelop Projects\charcount\charcount\obj\Debug\App.g.cs
+C:\Users\Knyfe\Documents\SharpDevelop Projects\charcount\charcount\obj\Debug\App.baml
+C:\Users\Knyfe\Documents\SharpDevelop Projects\charcount\charcount\bin\Debug\String Viewer.exe.config
+C:\Users\Knyfe\Documents\SharpDevelop Projects\charcount\charcount\bin\Debug\String Viewer.exe
+C:\Users\Knyfe\Documents\SharpDevelop Projects\charcount\charcount\bin\Debug\String Viewer.pdb
+C:\Users\Knyfe\Documents\SharpDevelop Projects\charcount\charcount\obj\Debug\String Viewer_MarkupCompile.cache
+C:\Users\Knyfe\Documents\SharpDevelop Projects\charcount\charcount\obj\Debug\String Viewer.g.resources
+C:\Users\Knyfe\Documents\SharpDevelop Projects\charcount\charcount\obj\Debug\String Viewer.exe
+C:\Users\Knyfe\Documents\SharpDevelop Projects\charcount\charcount\obj\Debug\String Viewer.pdb

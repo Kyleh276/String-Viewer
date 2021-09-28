@@ -1,0 +1,10 @@
+C:\Users\Knyfe\Documents\SharpDevelop Projects\charcount\charcount\bin\Release\String Viewer.exe.config
+C:\Users\Knyfe\Documents\SharpDevelop Projects\charcount\charcount\bin\Release\String Viewer.exe
+C:\Users\Knyfe\Documents\SharpDevelop Projects\charcount\charcount\obj\Release\String Viewer.csprojResolveAssemblyReference.cache
+C:\Users\Knyfe\Documents\SharpDevelop Projects\charcount\charcount\obj\Release\Window1.baml
+C:\Users\Knyfe\Documents\SharpDevelop Projects\charcount\charcount\obj\Release\App.baml
+C:\Users\Knyfe\Documents\SharpDevelop Projects\charcount\charcount\obj\Release\Window1.g.cs
+C:\Users\Knyfe\Documents\SharpDevelop Projects\charcount\charcount\obj\Release\App.g.cs
+C:\Users\Knyfe\Documents\SharpDevelop Projects\charcount\charcount\obj\Release\String Viewer_MarkupCompile.cache
+C:\Users\Knyfe\Documents\SharpDevelop Projects\charcount\charcount\obj\Release\String Viewer.g.resources
+C:\Users\Knyfe\Documents\SharpDevelop Projects\charcount\charcount\obj\Release\String Viewer.exe
