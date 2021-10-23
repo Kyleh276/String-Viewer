@@ -49,5 +49,6 @@
 				</Trigger>
 			</Style.Triggers>
 	    </Style>
+		<FontFamily x:Key="Gilroy-ExtraBold">pack://application,,,/Fonts/#Gilroy-ExtraBold</FontFamily>
 	</Application.Resources>
 </Application>

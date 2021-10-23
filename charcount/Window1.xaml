@@ -7,25 +7,12 @@
 	AllowsTransparency="True"
 	RenderTransformOrigin="0.5,0.5"
 	Background="Transparent"
-	FontFamily="Gilroy"
+	FontFamily="{StaticResource Gilroy-ExtraBold}"
 	Margin="0,0,0,0" xmlns:Controls2="clr-namespace:System.ComponentModel;assembly=PresentationFramework"
 	WindowStartupLocation="CenterScreen"
 	Height="505"
 	Width="668">
-	
 	<Window.Resources>
-		<Style
-			x:Key="Gilroy-Light">
-			<Setter
-				Property="TextElement.FontFamily"
-				Value="Fonts/Gilroy-Light.otf #Gilroy" />
-		</Style>
-		<Style
-			x:Key="Gilroy ExtraBold">
-			<Setter
-				Property="TextElement.FontFamily"
-				Value="pack://application:,,,/Resources/##GilroyBold" />
-		</Style>
 		<Style
 			TargetType="{x:Type Path}"></Style>
 	</Window.Resources>
@@ -153,7 +140,6 @@
 				</Border.Effect>
 			</Border>
 			<TextBlock
-				FontFamily="Gilroy"
 				Foreground="White"
 				FontSize="20"
 				HorizontalAlignment="Center"
@@ -162,7 +148,9 @@
 				VerticalAlignment="Center"
 				Margin="0,-25,0,0"
 				Grid.ColumnSpan="5"
-				Grid.RowSpan="4">
+				Grid.RowSpan="4"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="SemiBold">
 				<Run
 					Text="Bar Distribution" />
 			</TextBlock>
@@ -404,7 +392,6 @@
 				</Border.Background>
 			</Border>
 			<TextBlock
-				FontFamily="Gilroy"
 				FontSize="12"
 				Grid.RowSpan="1"
 				Grid.Column="1"
@@ -416,12 +403,13 @@
 				Margin="0,0,0,0"
 				TextAlignment="Center"
 				HorizontalAlignment="Left"
-				Width="120">
+				Width="120"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
 				<Run
 					Text="0%" />
 			</TextBlock>
 			<TextBlock
-				FontFamily="Gilroy"
 				FontSize="12"
 				Grid.RowSpan="1"
 				Name="vowelsPercentLabel"
@@ -433,7 +421,10 @@
 				Foreground="White"
 				HorizontalAlignment="Left"
 				Width="120"
-				Margin="0,0,0,0">
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				Margin="0,0,0,0"
+				Height="15"
+				FontWeight="Medium">
 				<Run
 					Text="0%" />
 			</TextBlock>
@@ -454,7 +445,6 @@
 				BorderBrush="Black" />
 			<TextBlock
 				Name="lettersLabel"
-				FontFamily="Gilroy"
 				FontSize="12"
 				Grid.RowSpan="1"
 				Foreground="White"
@@ -465,14 +455,14 @@
 				VerticalAlignment="Center"
 				Margin="0,0,0,0"
 				Grid.Row="2"
-				Width="NaN">
+				Width="NaN"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
 				<Run
 					Text="Letters" />
 			</TextBlock>
 			<TextBlock
 				Name="numberLabel"
-				FontFamily="Gilroy"
-				FontSize="12"
 				Foreground="White"
 				Grid.ColumnSpan="2"
 				Background="{x:Null}"
@@ -481,13 +471,15 @@
 				Grid.RowSpan="1"
 				Grid.Column="4"
 				Margin="0,0,0,0"
-				Grid.Row="2">
+				Grid.Row="2"
+				FontSize="12"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
 				<Run
 					Text="Numbers" />
 			</TextBlock>
 			<TextBlock
 				Name="vowelsLabel"
-				FontFamily="Gilroy"
 				FontSize="12"
 				Foreground="White"
 				Background="{x:Null}"
@@ -497,13 +489,14 @@
 				Grid.RowSpan="1"
 				VerticalAlignment="Top"
 				Margin="0,0,0,0"
-				Grid.Row="4">
+				Grid.Row="4"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
 				<Run
 					Text="Vowels" />
 			</TextBlock>
 			<TextBlock
 				Name="consonantsLabel"
-				FontFamily="Gilroy"
 				FontSize="12"
 				Grid.RowSpan="1"
 				Foreground="White"
@@ -513,13 +506,14 @@
 				Grid.Column="4"
 				VerticalAlignment="Top"
 				Grid.Row="4"
-				Margin="0,0,0,0">
+				Margin="0,0,0,0"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
 				<Run
 					Text="Consonants" />
 			</TextBlock>
 			<TextBlock
 				Name="spacesLabel"
-				FontFamily="Gilroy"
 				FontSize="12"
 				Grid.RowSpan="1"
 				Foreground="White"
@@ -528,13 +522,14 @@
 				VerticalAlignment="Bottom"
 				HorizontalAlignment="Center"
 				Grid.Row="6"
-				Margin="0,0,0,0">
+				Margin="0,0,0,0"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
 				<Run
 					Text="Spaces" />
 			</TextBlock>
 			<TextBlock
 				Name="symbolsLabel"
-				FontFamily="Gilroy"
 				FontSize="12"
 				Grid.RowSpan="1"
 				Foreground="White"
@@ -543,13 +538,14 @@
 				Grid.Row="6"
 				Margin="0,0,0,0"
 				VerticalAlignment="Center"
-				Grid.Column="4">
+				Grid.Column="4"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
 				<Run
 					Text="Symbols" />
 			</TextBlock>
 			<TextBlock
 				Name="letterPercentLabel"
-				FontFamily="Gilroy"
 				FontSize="12"
 				Foreground="White"
 				VerticalAlignment="Center"
@@ -560,13 +556,14 @@
 				TextAlignment="Center"
 				HorizontalAlignment="Left"
 				Width="120"
-				Margin="0,0,0,0">
+				Margin="0,0,0,0"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
 				<Run
 					Text="0%" />
 			</TextBlock>
 			<TextBlock
 				Name="numberPercentLabel"
-				FontFamily="Gilroy"
 				HorizontalAlignment="Center"
 				FontSize="12"
 				Grid.RowSpan="1"
@@ -575,12 +572,13 @@
 				Grid.Column="4"
 				VerticalAlignment="Center"
 				Margin="0,0,0,0"
-				Grid.Row="3">
+				Grid.Row="3"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
 				<Run
 					Text="0%" />
 			</TextBlock>
 			<TextBlock
-				FontFamily="Gilroy"
 				FontSize="12"
 				Foreground="White"
 				Grid.RowSpan="1"
@@ -591,12 +589,13 @@
 				Grid.ColumnSpan="2"
 				VerticalAlignment="Center"
 				Grid.Row="5"
-				Margin="0,0,0,0">
+				Margin="0,0,0,0"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
 				<Run
 					Text="0%" />
 			</TextBlock>
 			<TextBlock
-				FontFamily="Gilroy"
 				FontSize="12"
 				Foreground="White"
 				Grid.RowSpan="1"
@@ -607,12 +606,13 @@
 				Grid.ColumnSpan="2"
 				Grid.Column="1"
 				Margin="0,0,0,0"
-				Grid.Row="7">
+				Grid.Row="7"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
 				<Run
 					Text="0%" />
 			</TextBlock>
 			<TextBlock
-				FontFamily="Gilroy"
 				FontSize="12"
 				Grid.RowSpan="1"
 				VerticalAlignment="Top"
@@ -624,12 +624,13 @@
 				HorizontalAlignment="Left"
 				TextAlignment="Center"
 				Width="120"
-				Foreground="Black">
+				Foreground="Black"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
 				<Run
 					Text="0%" />
 			</TextBlock>
 			<TextBlock
-				FontFamily="Gilroy"
 				FontSize="12"
 				Foreground="White"
 				Grid.RowSpan="1"
@@ -642,7 +643,9 @@
 				Width="120"
 				HorizontalAlignment="Right"
 				Height="15"
-				Margin="0,0,0,0">
+				Margin="0,0,0,0"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
 				<Run
 					Text="0%" />
 			</TextBlock>
@@ -699,13 +702,10 @@
 				Source="Images\icon.png"
 				x:Name="logoImage" />
 			<Button
-				FontFamily="Gilroy"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
 				HorizontalAlignment="Center"
-				HorizontalContentAlignment="Center"
 				Foreground="White"
 				VerticalAlignment="Center"
-				FontSize="17"
-				VerticalContentAlignment="Stretch"
 				Grid.ColumnSpan="1"
 				BorderThickness="0,0,0,0"
 				Click="minimizeWindow"
@@ -713,9 +713,13 @@
 				Style="{StaticResource topButton}"
 				Name="minimizeButton"
 				Grid.Column="5"
-				Height="32"
+				TabIndex="6"
+				FontWeight="Medium"
+				HorizontalContentAlignment="Center"
 				Width="32"
-				TabIndex="6" />
+				Height="32"
+				VerticalContentAlignment="Bottom"
+				FontSize="17" />
 			<Border
 				Grid.Row="0"
 				BorderThickness="2,2,2,2"
@@ -725,7 +729,7 @@
 				Height="30"
 				Grid.Column="5" />
 			<Button
-				FontFamily="Gilroy"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
 				HorizontalAlignment="Center"
 				HorizontalContentAlignment="Center"
 				Foreground="White"
@@ -734,7 +738,6 @@
 				Margin="0,0,0,0"
 				Style="{StaticResource topButton}"
 				VerticalContentAlignment="Center"
-				FontSize="14"
 				BorderThickness="0,0,0,0"
 				Content=""
 				Click="exitClicked"
@@ -742,7 +745,9 @@
 				Grid.Column="6"
 				Height="32"
 				Width="32"
-				TabIndex="7" />
+				TabIndex="7"
+				FontSize="20"
+				FontWeight="ExtraBlack" />
 			<TextBlock
 				TextAlignment="Center"
 				HorizontalAlignment="Center"
@@ -751,7 +756,9 @@
 				Margin="0,0,0,0"
 				IsHitTestVisible="False"
 				FontSize="12"
-				Grid.Column="6">
+				Grid.Column="6"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
 				<Run
 					Text="X" />
 			</TextBlock>
@@ -767,22 +774,23 @@
 				Height="30"
 				Grid.Column="6" />
 			<TextBlock
-				FontFamily="Gilroy"
 				Foreground="White"
 				TextAlignment="Center"
-				Grid.Row="0"
-				VerticalAlignment="Center"
-				HorizontalAlignment="Right"
-				FontSize="21"
-				Margin="0,0,12,0"
 				Padding="0,0,0,20"
 				IsHitTestVisible="False"
-				Grid.Column="5">
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium"
+				FontSize="23"
+				Grid.Column="5"
+				Grid.Row="0"
+				HorizontalAlignment="Right"
+				VerticalAlignment="Center"
+				Margin="0,0,12,0"
+				Width="10">
 				<Run
 					Text="_" />
 			</TextBlock>
 			<TextBlock
-				FontFamily="Gilroy"
 				Foreground="White"
 				FontSize="20"
 				HorizontalAlignment="Center"
@@ -791,7 +799,9 @@
 				Margin="0,0,0,0"
 				Grid.ColumnSpan="1"
 				Grid.Column="3"
-				IsHitTestVisible="False">
+				IsHitTestVisible="False"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="SemiBold">
 				<Run
 					Text="String Viewer" />
 			</TextBlock>
@@ -871,7 +881,6 @@
 				Height="2"
 				Width="244" />
 			<TextBlock
-				FontFamily="Gilroy"
 				Foreground="White"
 				FontSize="20"
 				Grid.Row="0"
@@ -884,7 +893,9 @@
 				Grid.ColumnSpan="5"
 				Margin="0,0,0,0"
 				Grid.RowSpan="2"
-				x:Name="radarHeading">
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				x:Name="radarHeading"
+				FontWeight="SemiBold">
 				<Run
 					Text="Radar Distribution" />
 			</TextBlock>
@@ -1018,9 +1029,7 @@
 				Margin="3,-26,0,0"
 				x:Name="radarMiddleCircle" />
 			<TextBlock
-				FontFamily="Gilroy"
 				Foreground="White"
-				FontSize="20"
 				Height="NaN"
 				Width="NaN"
 				HorizontalAlignment="Center"
@@ -1031,12 +1040,14 @@
 				Grid.RowSpan="2"
 				Margin="0,0,0,0"
 				Grid.Row="5"
-				x:Name="characterHeading">
+				x:Name="characterHeading"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontSize="19"
+				FontWeight="SemiBold">
 				<Run
 					Text="Character Distribution" />
 			</TextBlock>
 			<TextBlock
-				FontFamily="Gilroy"
 				Foreground="White"
 				VerticalAlignment="Center"
 				FontSize="12"
@@ -1046,7 +1057,9 @@
 				HorizontalAlignment="Center"
 				x:Name="lettersLegendLabel"
 				Margin="-25,0,6,0"
-				Grid.RowSpan="2">
+				Grid.RowSpan="2"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
 				<Run
 					Text="Letters" />
 			</TextBlock>
@@ -1067,7 +1080,6 @@
 				Grid.RowSpan="2"
 				Margin="30,0,0,0" />
 			<TextBlock
-				FontFamily="Gilroy"
 				Foreground="White"
 				FontSize="12"
 				VerticalAlignment="Center"
@@ -1079,7 +1091,9 @@
 				TextAlignment="Center"
 				Margin="-15.5,-15,0,0"
 				Grid.RowSpan="1"
-				Grid.Row="7">
+				Grid.Row="7"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
 				<Run
 					Text="10000" />
 			</TextBlock>
@@ -1100,7 +1114,6 @@
 				Grid.RowSpan="1"
 				Margin="-15,-15,0,0" />
 			<TextBlock
-				FontFamily="Gilroy"
 				Foreground="White"
 				VerticalAlignment="Center"
 				FontSize="12"
@@ -1110,7 +1123,9 @@
 				HorizontalAlignment="Right"
 				x:Name="numbersLegendLabel"
 				Margin="-1,0,1,0"
-				Grid.RowSpan="2">
+				Grid.RowSpan="2"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
 				<Run
 					Text="Numbers" />
 			</TextBlock>
@@ -1131,7 +1146,6 @@
 				Margin="18,0,0,0"
 				Grid.RowSpan="2" />
 			<TextBlock
-				FontFamily="Gilroy"
 				Foreground="White"
 				VerticalAlignment="Center"
 				Grid.ColumnSpan="1"
@@ -1143,7 +1157,9 @@
 				TextAlignment="Center"
 				Grid.Row="7"
 				Grid.RowSpan="1"
-				Margin="0,-15,0,0">
+				Margin="0,-15,0,0"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
 				<Run
 					Text="10000" />
 			</TextBlock>
@@ -1180,7 +1196,6 @@
 				Margin="25,0,0,0"
 				Grid.RowSpan="2" />
 			<TextBlock
-				FontFamily="Gilroy"
 				Foreground="White"
 				VerticalAlignment="Center"
 				FontSize="12"
@@ -1190,12 +1205,13 @@
 				x:Name="vowelsLegendLabel"
 				Grid.Row="6"
 				Grid.RowSpan="2"
-				Margin="15,0,0,0">
+				Margin="15,0,0,0"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
 				<Run
 					Text="Vowels" />
 			</TextBlock>
 			<TextBlock
-				FontFamily="Gilroy"
 				Foreground="White"
 				VerticalAlignment="Center"
 				HorizontalAlignment="Center"
@@ -1206,7 +1222,9 @@
 				TextAlignment="Center"
 				Margin="25,-15,0,0"
 				Grid.RowSpan="1"
-				Grid.Row="7">
+				Grid.Row="7"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
 				<Run
 					Text="10000" />
 			</TextBlock>
@@ -1227,7 +1245,6 @@
 				Grid.RowSpan="1"
 				Grid.Row="7" />
 			<TextBlock
-				FontFamily="Gilroy"
 				Foreground="White"
 				HorizontalAlignment="Center"
 				FontSize="12"
@@ -1237,7 +1254,9 @@
 				Grid.RowSpan="1"
 				x:Name="consonantsLegendLabel"
 				VerticalAlignment="Center"
-				Margin="-6,20,0,0">
+				Margin="-6,20,0,0"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
 				<Run
 					Text="Consonants" />
 			</TextBlock>
@@ -1258,7 +1277,6 @@
 				Background="#64FF00FF"
 				Margin="54,20,0,0" />
 			<TextBlock
-				FontFamily="Gilroy"
 				Foreground="White"
 				VerticalAlignment="Center"
 				Grid.Column="1"
@@ -1270,7 +1288,11 @@
 				Name="consonantsCharLabel"
 				TextAlignment="Center"
 				Margin="-15.5,6,0,0"
-				Text="10000"></TextBlock>
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
+				<Run
+					Text="10000" />
+			</TextBlock>
 			<Border
 				Padding="0,0,0,0"
 				Name="consonantsBorder"
@@ -1288,7 +1310,6 @@
 				Margin="-15,5,0,0"
 				Height="17" />
 			<TextBlock
-				FontFamily="Gilroy"
 				Foreground="White"
 				VerticalAlignment="Center"
 				Width="NaN"
@@ -1300,7 +1321,9 @@
 				Grid.Row="7"
 				Grid.RowSpan="1"
 				x:Name="spacesLegendLabel"
-				Margin="0,20,0,0">
+				Margin="0,20,0,0"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
 				<Run
 					Text="Spaces" />
 			</TextBlock>
@@ -1321,7 +1344,6 @@
 				BorderBrush="#FF7B00FF"
 				Margin="18,20,0,0" />
 			<TextBlock
-				FontFamily="Gilroy"
 				Foreground="White"
 				VerticalAlignment="Center"
 				FontSize="12"
@@ -1332,7 +1354,9 @@
 				Grid.Column="3"
 				HorizontalAlignment="Center"
 				Margin="0,6,0,0"
-				Grid.ColumnSpan="1">
+				Grid.ColumnSpan="1"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
 				<Run
 					Text="10000" />
 			</TextBlock>
@@ -1353,7 +1377,6 @@
 				Grid.ColumnSpan="1"
 				Margin="0,5,0,0" />
 			<TextBlock
-				FontFamily="Gilroy"
 				Foreground="White"
 				HorizontalAlignment="Center"
 				VerticalAlignment="Center"
@@ -1363,7 +1386,9 @@
 				Grid.ColumnSpan="2"
 				Grid.RowSpan="1"
 				x:Name="symbolsLegendLabel"
-				Margin="15,20,0,0">
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				Margin="15,20,0,0"
+				FontWeight="Medium">
 				<Run
 					Text="Symbols" />
 			</TextBlock>
@@ -1384,7 +1409,6 @@
 				Background="#64FFFF00"
 				Margin="0,20,0,0" />
 			<TextBlock
-				FontFamily="Gilroy"
 				Foreground="White"
 				VerticalAlignment="Center"
 				HorizontalAlignment="Center"
@@ -1395,7 +1419,9 @@
 				Grid.RowSpan="2"
 				Margin="25,6,0,0"
 				x:Name="symbolsCharLabel"
-				TextAlignment="Center">
+				TextAlignment="Center"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
 				<Run
 					Text="10000" />
 			</TextBlock>
@@ -1416,7 +1442,7 @@
 				Margin="25,5,0,0"
 				Height="17" />
 			<TextBlock
-				FontFamily="Gilroy"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
 				Foreground="White"
 				VerticalAlignment="Center"
 				FontSize="12"
@@ -1426,7 +1452,8 @@
 				HorizontalAlignment="Center"
 				Grid.ColumnSpan="2"
 				Grid.Column="2"
-				Margin="-10,-4,0,0">
+				Margin="-10,-4,0,0"
+				FontWeight="Medium">
 				<Run
 					Text="Total " />
 			</TextBlock>
@@ -1447,7 +1474,6 @@
 				Grid.ColumnSpan="1"
 				Margin="-10,-4,0,0" />
 			<TextBlock
-				FontFamily="Gilroy"
 				Foreground="White"
 				FontSize="12"
 				VerticalAlignment="Center"
@@ -1459,7 +1485,9 @@
 				Grid.RowSpan="1"
 				Grid.Column="3"
 				Grid.ColumnSpan="2"
-				Margin="-15,-4,0,0">
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium"
+				Margin="-15,-1,0,0">
 				<Run
 					Text="10000" />
 			</TextBlock>
@@ -1479,7 +1507,7 @@
 				CornerRadius="1,1,1,1"
 				Width="44"
 				Grid.ColumnSpan="2"
-				Margin="-15,-4,0,0" />
+				Margin="-15,-3,0,0" />
 		</Grid>
 		<Grid
 			Margin="15,15,0,37"
@@ -1530,7 +1558,6 @@
 				</Border.Effect>
 			</Border>
 			<TextBlock
-				FontFamily="Gilroy"
 				Foreground="White"
 				FontSize="20"
 				HorizontalAlignment="Center"
@@ -1540,7 +1567,9 @@
 				x:Name="dataHeading"
 				Grid.Row="1"
 				Margin="0,0,0,0"
-				Grid.RowSpan="1">
+				Grid.RowSpan="1"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="SemiBold">
 				<Run
 					Text="Data Input" />
 			</TextBlock>
@@ -1549,7 +1578,6 @@
 				PreviewMouseDown="mainTextClicked"
 				TextChanged="mainTextChanged"
 				Background="#FF8395A7"
-				FontFamily="Gilroy"
 				FontSize="14"
 				Text="Type Here to Begin..."
 				TextWrapping="Wrap"
@@ -1566,7 +1594,9 @@
 				TabIndex="5"
 				Grid.Row="2"
 				Grid.RowSpan="3"
-				Margin="10,40,10,-39">
+				Margin="10,40,10,-39"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium">
 				<TextBox.Resources>
 					<Style
 						TargetType="{x:Type Border}">
@@ -1577,7 +1607,6 @@
 				</TextBox.Resources>
 			</TextBox>
 			<Button
-				FontFamily="Gilroy"
 				Foreground="White"
 				BorderThickness="0,0,0,0"
 				Click="flipText"
@@ -1596,7 +1625,9 @@
 				TabIndex="1"
 				Grid.RowSpan="2"
 				Grid.Row="1"
-				Margin="2,22,0,0" />
+				Margin="2,22,0,0"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium" />
 			<Border
 				BorderThickness="2,2,2,2"
 				BorderBrush="#FFC8D6E5"
@@ -1611,18 +1642,12 @@
 				Grid.Row="1"
 				Margin="2,22,0,0" />
 			<Button
-				FontFamily="Gilroy"
-				HorizontalContentAlignment="Center"
 				Foreground="White"
 				VerticalAlignment="Center"
 				BorderThickness="0,0,0,0"
 				Click="removeSymbolsText"
 				Style="{StaticResource extraButton}"
 				x:Name="removeSymbolsButton"
-				HorizontalAlignment="Center"
-				Height="20"
-				FontSize="11"
-				VerticalContentAlignment="Center"
 				Grid.ColumnSpan="2"
 				Grid.Column="1"
 				Content="Drop Symbols"
@@ -1630,7 +1655,14 @@
 				TabIndex="2"
 				Grid.RowSpan="2"
 				Grid.Row="1"
-				Margin="-28,22,0,0" />
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium"
+				FontSize="11"
+				Height="20"
+				Margin="-28,22,0,0"
+				HorizontalAlignment="Center"
+				HorizontalContentAlignment="Center"
+				VerticalContentAlignment="Center" />
 			<Border
 				BorderThickness="2,2,2,2"
 				BorderBrush="#FFC8D6E5"
@@ -1640,12 +1672,11 @@
 				Grid.ColumnSpan="2"
 				Grid.Column="1"
 				Width="86"
-				Height="20"
 				Grid.RowSpan="2"
 				Grid.Row="1"
-				Margin="-28,22,0,0" />
+				Margin="-28,22,0,0"
+				Height="20" />
 			<Button
-				FontFamily="Gilroy"
 				HorizontalContentAlignment="Center"
 				Foreground="White"
 				VerticalAlignment="Center"
@@ -1664,7 +1695,9 @@
 				TabIndex="3"
 				Grid.RowSpan="2"
 				Grid.Row="1"
-				Margin="-71,22,0,0" />
+				Margin="-71,22,0,0"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium" />
 			<Border
 				BorderThickness="2,2,2,2"
 				BorderBrush="#FFC8D6E5"
@@ -1679,7 +1712,6 @@
 				Grid.Row="1"
 				Margin="-71,22,0,0" />
 			<Button
-				FontFamily="Gilroy"
 				HorizontalContentAlignment="Center"
 				Foreground="White"
 				VerticalAlignment="Center"
@@ -1698,7 +1730,9 @@
 				TabIndex="4"
 				Grid.RowSpan="2"
 				Grid.Row="1"
-				Margin="14,22,0,0" />
+				Margin="14,22,0,0"
+				FontFamily="{StaticResource Gilroy-ExtraBold}"
+				FontWeight="Medium" />
 			<Border
 				BorderThickness="2,2,2,2"
 				BorderBrush="#FFC8D6E5"

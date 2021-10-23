@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
   <ItemGroup>
-    <Resource Include="Fonts\OCRAEXT.TTF" />
     <Resource Include="Images\icon.ico" />
   </ItemGroup>
   <PropertyGroup>
@@ -106,6 +105,9 @@
     <None Include="app.config" />
     <Resource Include="Images\icon.png" />
   </ItemGroup>
+   <ItemGroup>
+   <Resource Include="Fonts\Gilroy-ExtraBold.otf" />
+ </ItemGroup>
   <ItemGroup>
     <Folder Include="Images" />
     <Folder Include="Fonts" />
